@@ -1,0 +1,566 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.test-table tr td{
+  text-align: justify;
+      vertical-align: top;
+      padding: 5px;
+    min-width: 110px;
+  }
+  td .test-table-img {
+  width: 110px;
+  }
+      #___partnersbadge_0{
+        text-indent: -110px !important;
+      margin: 0px 1px 0 50% !important;
+      }
+    @media only screen and (min-width: 760px){
+      #___partnersbadge_0{text-indent: 0;float: right !important;margin: -94px 0 0 0 !important;}
+    }
+    #newsletter-form {
+      max-height: 706px !important;
+      min-height: auto !important;
+    }	
+    #bing-wrapper {
+      text-align: center;
+      width: 100%;
+      margin-bottom: 20px;
+    }	
+    #bing {
+      display: inline-block;
+    }	
+    @media only screen and (min-width: 516px){
+      #newsletter-form {
+        max-height: 620px !important;
+      }
+    }
+    @media only screen and (min-width: 760px){
+      #newsletter-form {
+        max-height: 401px !important;
+      }
+      #bing-wrapper {
+        width: auto;
+        margin-bottom: 0;
+      }
+      #bing {
+        float: right;
+        margin: -94px 360px 0 0 !important;
+      }
+    }
+       .flexbox {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+      }
+  
+      p,
+      h3,
+      h4,
+      .year,
+      .button-toggle,
+      .state>label,
+      .filters label {
+        color: #6E6E6E !important;
+      }
+  
+      .flexbox.--reverse {
+        flex-direction: column-reverse;
+      }
+  
+      .flexbox>.text-container {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 720px;
+      }
+  
+      .flexbox>.text-container p {
+        line-height: 1.75;
+        word-spacing: 4px;
+      }
+  
+      .flexbox>.img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+      }
+  
+      .img-container img {
+        max-width: 100%;
+        height: auto;
+      }
+  
+      .awards-group {
+        background: white;
+        padding: 1rem;
+        margin: 0 0 2rem 0;
+        border-top: 4px solid #634061;
+      }
+  
+      .awards-group h3 {
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+  
+      .awards-group h4 {
+        font-size: 1rem;
+        font-weight: normal;
+        font-style: italic;
+      }
+  
+      .year {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        position: relative;
+        cursor: pointer;
+      }
+  
+      .ceremony {
+        display: grid;
+        grid-template-columns: 1fr auto;
+      }
+  
+      .--border-top-dotted {
+        border-top: 1px dotted #6DB2AA;
+      }
+  
+      .--border-bottom-dotted {
+        border-bottom: 1px dotted #6DB2AA;
+      }
+  
+      .award-detail {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        pointer-events: none;
+        transition: all 200ms ease-out;
+        height: 0%;
+        opacity: 0;
+      }
+  
+      .award-detail>div {
+        border: 2px solid #634061;
+        border-radius: 16px;
+        padding: 1rem;
+        background: white;
+        width: 100%;
+        margin: 0 8px;
+        max-width: 920px;
+        pointer-events: auto;
+        position: relative;
+        -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+        box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+      }
+  
+      .award-detail .head {
+        display: grid;
+        grid-template-columns: minmax(220px, 1fr) minmax(64px, auto);
+        margin-bottom: 16px;
+        grid-gap: 8px;
+      }
+  
+      .head>div:first-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+  
+      .award-detail .head img {
+        margin: auto;
+        width: 100%;
+        height: auto;
+      }
+  
+      .award-detail p {
+        font-style: italic;
+      }
+  
+      .award-detail p:last-child {
+        margin-bottom: 0;
+      }
+  
+      .award-detail h3 {
+        padding: 0 !important;
+        font-size: 1rem;
+      }
+  
+      .award-detail button {
+        background: #634061;
+        border-radius: 32px;
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        z-index: 3;
+        top: -12px;
+        right: -8px;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+  
+      .award-detail a {
+        background: #3F9B90;
+        color: white;
+        text-decoration: none;
+        font-family: inherit;
+        font-style: italic;
+        padding: 12px 16px;
+        display: inline-block;
+        border-radius: 8px;
+        font-weight: 300;
+        transition: background 200ms ease-out;
+      }
+  
+      .award-detail a:hover {
+        background: #29665d;
+      }
+  
+      .overlay {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: black;
+        opacity: 0;
+        transition: all 200ms ease-out;
+        z-index: 1;
+        pointer-events: none;
+      }
+  
+      .ceremony .img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 2;
+        grid-row: 1 /span 10;
+        border-top: 1px dotted #6DB2AA;
+        padding: 12px;
+        margin-top: 12px;
+        display: none;
+      }
+  
+      .ceremony .img-container img {
+        max-width: 150px;
+      }
+  
+      .ceremony h3 {
+        padding-top: 16px;
+      }
+  
+      .year>span {
+        font-weight: normal;
+        font-size: 1rem;
+        margin-left: 1rem;
+        font-style: italic;
+        line-height: 1;
+      }
+  
+      .filters {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+  
+      .filter-controls {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: baseline;
+        height: fit-content;
+        padding-top: 4px;
+        margin-bottom: 24px;
+      }
+  
+      .filter-controls button {
+        height: fit-content;
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #38897e;
+        font-size: 0.75rem;
+        padding: 4px;
+        border-radius: 4px;
+        transition: all 200ms ease-out;
+      }
+  
+      h4[data-award-entry] {
+        cursor: pointer;
+      }
+  
+      h4[data-award-entry]:hover {
+        text-decoration: underline;
+      }
+  
+      .filter-controls button:hover {
+        background: #b2eae3;
+      }
+  
+      .filter-controls label {
+        font-size: 0.75rem;
+        font-weight: bold;
+      }
+  
+      .awards {
+        width: 100%;
+      }
+  
+      .category {
+        border-bottom: 1px solid #634061;
+        margin-bottom: 1.5em;
+        display: flex;
+        flex-direction: column;
+      }
+  
+      .category>div {
+        display: flex;
+        flex-direction: column;
+      }
+  
+      .banner-content {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        min-height: 400px !important;
+      }
+  
+      .button-toggle {
+        height: fit-content;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 6px 0;
+        color: #22102c;
+        width: 100%;
+        margin-bottom: 1.5rem;
+        outline: none;
+      }
+  
+      .hidden {
+        display: none !important;
+        pointer-events: none;
+      }
+  
+      .pretty {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+      }
+  
+      .pretty .state label {
+        margin-left: 8px;
+      }
+  
+      .pretty.p-default input:checked~.state label:after {
+        background-color: #4AA196 !important;
+      }
+  
+      .awards-group h2>span:last-child {
+        font-size: 32px;
+        font-style: normal;
+        margin: auto;
+        right: 0;
+        position: absolute;
+        top: 0;
+        transform-origin: 5px 20px;
+        transform: rotate(-90deg);
+        transition: all 200ms ease-out;
+      }
+  
+      .awards-group h2>span:last-child.--closed {
+        transform: rotate(90deg);
+      }
+  
+      .button-toggle>span:last-child {
+        font-size: 1.5em;
+        line-height: 1;
+        transition: all 200ms ease-out;
+        transform: rotate(-90deg);
+      }
+  
+      .button-toggle>span:last-child.--closed {
+        transform: rotate(90deg);
+      }
+  
+      .awards-footer {
+        background: #634061;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        height: 300px;
+      }
+  
+      .awards-footer h2 {
+        color: white;
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        margin-bottom: 1.5rem;
+      }
+  
+      .awards-footer a {
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 12px 64px;
+        border-radius: 32px;
+        font-size: 1.2rem;
+        transition: all 200ms ease-out;
+      }
+  
+      .awards-footer a:hover {
+        background: white;
+        color: #634061;
+      }
+  
+      .detail-content {
+        margin-top: 16px;
+      }
+  
+      .detail-content img {
+        display: none;
+      }
+  
+      .--top-purple-line {
+        position: relative;
+        padding: 32px 0;
+      }
+  
+      .--top-purple-line::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 2px;
+        height: 42px;
+        background: #634061;
+        top: 0;
+        left: calc(50% - 1px);
+      }
+  
+      .head h4 {
+        margin-bottom: 12px;
+      }
+  
+      @media only screen and (min-width:768px) {
+  
+        .--top-purple-line {
+          padding: 64px 0;
+        }
+  
+        .head h4 {
+          margin-bottom: 0;
+        }
+  
+        .--top-purple-line::after {
+          height: 60px;
+        }
+  
+        .flexbox,
+        .flexbox.--reverse {
+          flex-direction: row;
+        }
+  
+        .filters {
+          max-width: 300px;
+          padding-right: 50px;
+        }
+  
+        .flexbox .img-container {
+          padding: 0;
+        }
+  
+        .ceremony .img-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+  
+        .award-detail>div {
+          padding: 2rem;
+          margin: 0 32px;
+        }
+  
+        .detail-content {
+          display: grid;
+          grid-template-columns: 1fr 280px;
+          grid-column-gap: 16px;
+        }
+  
+        .detail-content img {
+          display: block;
+          width: 100%;
+          margin: 0 0 auto;
+          height: auto;
+        }
+      }
+  
+      @media only screen and (min-width:1024px) {
+        .filters {
+          max-width: 400px;
+        }
+  
+        .award-detail>div {
+          max-width: 900px;
+        }
+  
+        .award-detail .head {
+          grid-template-columns: minmax(220px, 1fr) minmax(auto, 300px);
+        }
+  
+        .award-detail .head img {
+          margin: 0 0 0 auto;
+          width: 100%;
+          height: auto;
+          max-width: 150px;
+        }
+      }
